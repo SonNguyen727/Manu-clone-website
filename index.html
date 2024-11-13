@@ -4,25 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <title>Document</title>
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Todo List</h1>
-        </div>
-        <div class="content">
-            <div class="input">
-                <input type="text" id="input" placeholder="Enter your task">
-                <button id="add">Add</button>
-            </div>
-            <div class="list">
-                <ul id="list">
-                    <!-- <li>Task 1</li>
-                    <li>Task 2</li>
-                    <li>Task 3</li> -->
-                </ul>
-            </div>
+<body cz-shortcut-listen="true">
+    <div id="header">
+        <div id="menu">
+            <a class="list-menu" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#">HOME</a>
+            <a href="#team">TEAM</a>
+            <a href="#schedule">SCHEDULE</a>
+            <a href="#contact">CONTACT</a>
         </div>
     </div>
     <script src="script.js"></script>
